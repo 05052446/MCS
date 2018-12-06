@@ -48,7 +48,6 @@ def post_to_mcs(payload):
 	conn.close() 
 
 
-
 # Parse command line parameters.
 sensor_args = { '11': Adafruit_DHT.DHT11,
                 '22': Adafruit_DHT.DHT22,
